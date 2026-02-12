@@ -53,3 +53,9 @@ jspm_packages/
 
 # Aider AI Chat
 .aider*
+
+# Claude Code
+.claude/
+
+#Extra FIles Locally Store Only (DOCS etc.)
+docs/
