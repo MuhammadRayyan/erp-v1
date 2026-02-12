@@ -56,3 +56,6 @@ jspm_packages/
 
 # Claude Code
 .claude/
+
+#Extra FIles Locally Store Only (DOCS etc.)
+docs/
