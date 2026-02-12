@@ -2,9 +2,9 @@
 
 **Custom ERP System — Manager.io-Style Experience Built on ERPNext/Frappe**
 
-- **Version:** 1.0 | February 5, 2025
-- **Author:** Muhammad Rayyan + Claude AI
-- **Status:** FINALIZED
+- **Version:** 1.1 | Last updated: 2026-02-12
+- **Author:** Muhammad Rayyan
+- **Status:** Active Living Document | “Original spec authored Feb 5, 2025”
 
 ---
 
@@ -66,7 +66,7 @@ Build on ERPNext/Frappe, which solves all of the above: flexible form customizat
 | Frontend | Frappe UI (Vue.js) + Custom CSS/JS | Manager.io-like theme overlay |
 | Development OS | Windows 11 | Docker Desktop |
 | IDE | VS Code | With Dev Containers extension |
-| Version Control | Git + GitHub (private) | github.com/MuhammadRayyan/erp-v1 |
+| Version Control | Git + GitHub (public) | github.com/MuhammadRayyan/erp-v1 |
 | ERPNext Version | v16 (latest) | Long-term support branch |
 
 ---

@@ -44,7 +44,7 @@ Industry support: Core + Edition add-on apps (no forks)
 UAE localization: VAT 5%, AED, TRN, e-invoicing ready
 
 Repository
-GitHub: https://github.com/MuhammadRayyan/erp-v1 (private)
+GitHub: https://github.com/MuhammadRayyan/erp-v1 (public)
 
 Branch: version-16
 

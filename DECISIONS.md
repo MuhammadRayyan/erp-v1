@@ -21,6 +21,6 @@
 - **Alternatives:** Create now (pointless without tests)
 
 ## 2026-02-06: Repository Visibility
-- **Decision:** Private
-- **Reason:** Selling as a product — protect business logic, print formats, UAE configs
-- **Alternatives:** Public (would expose competitive advantage)
+- **Decision:** Public (for now)
+- **Reason:** Easy sharing/testing
+- **Future:** May switch to private before production

@@ -5,6 +5,6 @@
 - Downloaded and installed ERPNext v16
 - Created site: erp-v1.localhost
 - Created custom app: erp_v1_core
-- Connected to GitHub (private repo)
+- Connected to GitHub (public repo)
 - Development environment fully operational
 
