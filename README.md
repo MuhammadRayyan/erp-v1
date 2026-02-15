@@ -14,14 +14,37 @@ Manager.io-style ERP experience built on ERPNext v16 for UAE businesses.
 | Development OS | Windows 11 |
 | IDE | VS Code |
 
-## Quick Start
+## Project Structure
 
-1. Open the project in VS Code
+This Git repository contains **only the custom Frappe app** (`erp_v1_core`). The Docker environment and ERPNext installation live outside this repo.
+
+**Complete Project Layout:**
+D:\Projects\erp-v1-docker\ ← Docker project root (NOT in Git)
+├── .devcontainer\ ← VS Code Dev Container config
+├── docker-compose.yml ← Docker services definition
+└── development
+└── frappe-bench\ ← Frappe bench
+└── apps
+└── erp_v1_core\ ← THIS Git repo (you are here)
+
+
+**Why Only the Custom App is in Git:**
+- ERPNext and Frappe are external dependencies (installed via `bench get-app`)
+- Docker setup uses standard `frappe_docker` (cloned from official repo)
+- Only our custom code and configurations belong in version control
+- See Design Rule #1: "Never edit ERPNext core code"
+
+## Quick Start (Existing Environment)
+
+If you already have the Docker environment set up:
+
+1. Open `D:\Projects\erp-v1-docker` in VS Code
 2. `Ctrl+Shift+P` → "Dev Containers: Reopen in Container"
 3. In the terminal:
    ```bash
    cd frappe-bench
    bench start
+
 
 Open browser: http://erp-v1.localhost:8000
 
