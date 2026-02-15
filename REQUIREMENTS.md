@@ -59,7 +59,7 @@ Build on ERPNext/Frappe, which solves all of the above: flexible form customizat
 |-----------|-----------|-------|
 | Backend Framework | Frappe Framework v16 | Python-based, ORM, REST API |
 | ERP Base | ERPNext v16 | Full ERP modules, accounting, inventory |
-| Database | MariaDB 10.6 | Via Docker, managed by Frappe |
+| Database | MariaDB 11.8 | Via Docker, managed by Frappe |
 | Cache/Queue | Redis | Session cache, background jobs |
 | Web Server | Nginx | Reverse proxy in production |
 | Containerization | Docker + Docker Compose | Development and deployment |
