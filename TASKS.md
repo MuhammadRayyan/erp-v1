@@ -15,22 +15,22 @@
 - [x] Install VS Code extensions
 
 ## Phase 1a: Accounting Foundation
-- [ ] Run ERPNext Setup Wizard (company, currency, fiscal year)
-- [ ] Configure UAE Chart of Accounts
-- [ ] Set up bank and cash accounts
-- [ ] Create 5% VAT tax template
-- [ ] Configure Payment Entry
-- [ ] Set up Bank Reconciliation
-- [ ] Test with a basic Journal Entry
+- [x] Run ERPNext Setup Wizard (company, currency, fiscal year)
+- [x] Configure UAE Chart of Accounts
+- [x] Set up bank and cash accounts
+- [x] Create 5% VAT tax template
+- [x] Configure Payment Entry
+- [ ] Set up Bank Reconciliation (deferred to Phase 1d)
+- [x] Test with a basic Journal Entry
 
 ## Phase 1b: Sales Cycle + UI Theme
-- [ ] Customer management
-- [ ] Quotation workflow
-- [ ] Sales Order
-- [ ] Delivery Note
-- [ ] Sales Invoice with VAT
-- [ ] Credit Note
-- [ ] Manager.io UI theme
-- [ ] Form layout organization
+- [x] Customer management
+- [x] Quotation workflow
+- [x] Sales Order
+- [x] Delivery Note
+- [x] Sales Invoice with VAT
+- [x] Credit Note
+- [ ] Manager.io UI theme (CSS/JS customization)
+- [ ] Form layout organization (sections, tabs, collapsible areas)
 
 ## Phase 1c–1f: (See Requirements document)
