@@ -4,7 +4,7 @@
 
 - **Version:** 1.1 | Last updated: 2026-02-12
 - **Author:** Muhammad Rayyan
-- **Status:** Active Living Document | “Original spec authored Feb 5, 2025”
+- **Status:** Architecture = stable, Requirements = living
 
 ---
 
