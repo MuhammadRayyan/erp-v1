@@ -28,7 +28,7 @@
 - Test service item for initial transactions
 
 ### Next Step (SINGLE MOST IMPORTANT)
-- Begin Phase 1c: Purchase Cycle — Supplier management, LPO (Purchase Order), GRN (Purchase Receipt), Purchase Invoice, Debit Note
+- Complete Phase 1b: Form layout organization for Sales Invoice and Quotation (sections, tabs, collapsible areas via Customize Form → export as fixtures)
 
 ### Blockers / Questions
 - None
