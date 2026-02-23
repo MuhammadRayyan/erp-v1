@@ -1,6 +1,32 @@
 # Progress Log
 
-## Latest Update (2026-02-15)
+## Latest Update (2026-02-23)
+
+### What We Completed
+- Created Manager.io UI theme CSS (erp_v1_core/public/css/erp_v1_theme.css) — deferred to post-Phase 1f
+- Registered fixtures in hooks.py for Property Setter and Custom Field
+- Cleaned up Sales Invoice form — hidden ~50 irrelevant fields across all 5 pages
+- Exported fixtures (property_setter.json, custom_field.json) to capture changes
+- Committed and pushed all changes to GitHub
+
+### Decisions Made
+- UI theme deferred to post-Phase 1f (see DECISIONS.md)
+- Quotation form layout deferred until after Purchase Cycle
+- update_stock field override via Client Script deferred to theme phase
+
+### Next Step (SINGLE MOST IMPORTANT)
+- Begin Phase 1c: Purchase Cycle — start with Supplier management
+
+### Blockers / Questions
+- None
+
+### Commands / References
+- Export fixtures: `bench --site erp-v1.localhost export-fixtures`
+- Clear cache: `bench --site erp-v1.localhost clear-cache`
+
+---
+
+## Update (2026-02-15)
 
 ### What We Completed
 - **Constitutional Audit:** Verified DOCX alignment with repo implementation
@@ -44,7 +70,6 @@
 ---
 
 ## Previous Update (2026-02-06)
-
 
 ### What We Completed
 - Phase 0: Full environment setup

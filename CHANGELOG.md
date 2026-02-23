@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-02-23 — Phase 1b: Form Layout Complete
+
+### Sales Invoice Form Layout
+- Hidden all POS-related fields (is_pos, pos_profile, is_consolidated, etc.)
+- Hidden shipping/packing fields (irrelevant for services)
+- Hidden tax withholding section (not applicable UAE)
+- Hidden loyalty program section
+- Hidden UTM/marketing tracking fields
+- Hidden inter-company fields
+- Hidden subscription/auto-repeat fields
+- Kept UAE-critical fields visible: VAT Details, VAT Emirate, Permit Number, Company TRN
+- Kept timesheet billing fields visible (technical services essential)
+- Exported all customizations as fixtures (property_setter.json, custom_field.json)
+- Known issue: update_stock overridden by ERPNext JS — deferred to theme phase
+
+
 ## 2026-02-23 — Theme Created & Deferred
 
 ### UI Theme

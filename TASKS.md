@@ -31,7 +31,9 @@
 - [x] Sales Invoice with VAT
 - [x] Credit Note
 - [ ] Manager.io UI theme (CSS/JS customization) ← DEFERRED to post-Phase 1f (CSS file created, disabled in hooks.py)
-- [ ] Form layout organization (sections, tabs, collapsible areas) ← IN PROGRESS
+- [x] Form layout organization — Sales Invoice fields cleaned up, fixtures exported
+- [ ] Form layout — Quotation (deferred, do after Purchase Cycle)
+
 
 
 ## Phase 1c–1f: (See Requirements document)
