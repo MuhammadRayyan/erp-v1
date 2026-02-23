@@ -30,7 +30,6 @@
 ### Next Step (SINGLE MOST IMPORTANT)
 - Begin Phase 1c: Purchase Cycle — Supplier management, LPO (Purchase Order), GRN (Purchase Receipt), Purchase Invoice, Debit Note
 
-
 ### Blockers / Questions
 - None
 
