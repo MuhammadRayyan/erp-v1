@@ -12,8 +12,8 @@
   - Bank & Cash accounts structure confirmed
   - VAT 5% tax template verified (Account Head: VAT 5% - TTSL)
   - Test journal entry created and submitted successfully
-  - **Phase 1b (Sales Cycle) Complete:** Sales workflow is functional end-to-end.
-  - **Phase 1b (UI Theme + Layout) Pending:** Manager.io-style UI theme and form layout organization still in progress.
+- **Phase 1b (Sales Cycle) Complete:** Sales workflow is functional end-to-end.
+- **Phase 1b (UI Theme + Layout) Pending:** Manager.io-style UI theme and form layout   organization still in progress.
   - Customer created: Al Noor Trading LLC
   - Complete workflow tested: Quotation → Sales Order → Delivery Note → Sales Invoice → Payment
   - Credit Note (return/refund) process verified
