@@ -1,0 +1,155 @@
+/* =====================================================
+   ERP-V1 Theme — Manager.io Style
+   Target: ERPNext v16 / Frappe v16 Desk
+   ===================================================== */
+
+/* ─── 1. COLOUR TOKENS ──────────────────────────────── */
+:root {
+  --erp-blue:        #1B73E8;
+  --erp-blue-light:  #EBF3FE;
+  --erp-blue-hover:  #1558B0;
+  --erp-bg:          #F0F4F8;
+  --erp-white:       #FFFFFF;
+  --erp-border:      #E2E8F0;
+  --erp-text:        #2D3748;
+  --erp-text-muted:  #718096;
+}
+
+/* ─── 2. FRAPPE VARIABLE OVERRIDES ──────────────────── */
+:root {
+  --primary:          #1B73E8 !important;
+  --primary-color:    #1B73E8 !important;
+}
+
+/* ─── 3. NAVBAR ─────────────────────────────────────── */
+.navbar {
+  background-color: var(--erp-white) !important;
+  border-bottom: 1px solid var(--erp-border) !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06) !important;
+}
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: var(--erp-text) !important;
+}
+
+/* ─── 4. SIDEBAR ────────────────────────────────────── */
+.layout-side-section,
+.desk-sidebar {
+  background-color: var(--erp-white) !important;
+  border-right: 1px solid var(--erp-border) !important;
+}
+
+/* Individual sidebar items */
+.standard-sidebar-item {
+  border-radius: 6px !important;
+  margin: 1px 6px !important;
+}
+.standard-sidebar-item a {
+  color: var(--erp-text) !important;
+  font-size: 13.5px !important;
+}
+.standard-sidebar-item a:hover {
+  background-color: var(--erp-blue-light) !important;
+  color: var(--erp-blue) !important;
+}
+.standard-sidebar-item.selected a,
+.standard-sidebar-item.active a {
+  background-color: var(--erp-blue-light) !important;
+  color: var(--erp-blue) !important;
+  font-weight: 500 !important;
+}
+
+/* Sidebar section labels (e.g. "Accounts", "Sales") */
+.standard-sidebar-label {
+  font-size: 10.5px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  color: var(--erp-text-muted) !important;
+  padding: 12px 12px 4px !important;
+}
+
+/* ─── 5. MAIN BODY ──────────────────────────────────── */
+.main-column,
+.page-container {
+  background-color: var(--erp-bg) !important;
+}
+
+/* ─── 6. CARDS & FORMS ──────────────────────────────── */
+.frappe-card,
+.form-page,
+.desk-page {
+  background-color: var(--erp-white) !important;
+  border: 1px solid var(--erp-border) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+}
+
+/* Section headers inside forms */
+.form-section .section-head {
+  color: var(--erp-blue) !important;
+  font-size: 11.5px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  border-bottom: 1px solid var(--erp-border) !important;
+  padding-bottom: 6px !important;
+  margin-bottom: 12px !important;
+}
+
+/* ─── 7. BUTTONS ────────────────────────────────────── */
+.btn-primary {
+  background-color: var(--erp-blue) !important;
+  border-color: var(--erp-blue) !important;
+  border-radius: 6px !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--erp-blue-hover) !important;
+  border-color: var(--erp-blue-hover) !important;
+}
+.btn-default,
+.btn-secondary {
+  border-radius: 6px !important;
+}
+
+/* ─── 8. LIST VIEW ──────────────────────────────────── */
+.list-row {
+  border-bottom: 1px solid var(--erp-border) !important;
+}
+.list-row:hover {
+  background-color: var(--erp-blue-light) !important;
+}
+.list-filters {
+  background-color: var(--erp-white) !important;
+  border-bottom: 1px solid var(--erp-border) !important;
+}
+
+/* ─── 9. PAGE TITLE BAR ─────────────────────────────── */
+.page-head {
+  background-color: var(--erp-white) !important;
+  border-bottom: 1px solid var(--erp-border) !important;
+}
+.title-text {
+  color: var(--erp-text) !important;
+  font-weight: 600 !important;
+}
+
+/* ─── 10. FORM TABS ─────────────────────────────────── */
+.form-tabs-list .nav-link.active {
+  color: var(--erp-blue) !important;
+  border-bottom: 2px solid var(--erp-blue) !important;
+}
+.form-tabs-list .nav-link:hover {
+  color: var(--erp-blue) !important;
+}
+
+/* ─── 11. LINKS ─────────────────────────────────────── */
+a { color: var(--erp-blue); }
+a:hover { color: var(--erp-blue-hover); }
+
+/* ─── 12. FONT STACK ────────────────────────────────── */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter',
+               'Segoe UI', Roboto, Arial, sans-serif !important;
+}

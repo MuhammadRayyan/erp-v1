@@ -30,7 +30,8 @@
 - [x] Delivery Note
 - [x] Sales Invoice with VAT
 - [x] Credit Note
-- [ ] Manager.io UI theme (CSS/JS customization)
-- [ ] Form layout organization (sections, tabs, collapsible areas)
+- [ ] Manager.io UI theme (CSS/JS customization) ← DEFERRED to post-Phase 1f (CSS file created, disabled in hooks.py)
+- [ ] Form layout organization (sections, tabs, collapsible areas) ← DEFERRED to post-Phase 1f
+
 
 ## Phase 1c–1f: (See Requirements document)

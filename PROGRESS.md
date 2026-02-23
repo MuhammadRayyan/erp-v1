@@ -28,7 +28,8 @@
 - Test service item for initial transactions
 
 ### Next Step (SINGLE MOST IMPORTANT)
-- Continue Phase 1b: Apply Manager.io UI theme (CSS/JS customization) and organize form layouts with sections/tabs
+- Begin Phase 1c: Purchase Cycle — Supplier management, LPO (Purchase Order), GRN (Purchase Receipt), Purchase Invoice, Debit Note
+
 
 ### Blockers / Questions
 - None

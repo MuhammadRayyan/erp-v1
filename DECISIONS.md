@@ -40,3 +40,10 @@
 - **Decision:** Use "Al Noor Trading LLC" as test customer, "Test Service" item for initial transactions
 - **Reason:** Realistic UAE business name for testing, simple service item covers most scenarios without inventory complexity
 - **Alternatives:** Create multiple customers/items upfront (rejected — YAGNI principle, add as needed)
+
+## 2026-02-23: UI Theme Deferred
+- **Decision:** Disable Manager.io UI theme for now; re-enable after all functional phases complete
+- **Reason:** Avoid visual distractions during development; easier to test forms and workflows on default ERPNext UI; theme tweaks are cosmetic and can be done in one focused pass at the end
+- **What's saved:** erp_v1_core/public/css/erp_v1_theme.css is committed and ready; just re-enable the line in hooks.py when needed
+- **Alternatives:** Theme as we go (rejected — mixes two concerns, slows down functional progress)
+

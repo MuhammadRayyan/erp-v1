@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-02-23 — Theme Created & Deferred
+
+### UI Theme
+- Created erp_v1_core/public/css/erp_v1_theme.css (Manager.io blue/white theme)
+- Theme tested and working but disabled in hooks.py — deferred to post-Phase 1f
+- Default ERPNext theme restored for all development phases
+
+
 ## 2026-02-15 — Phase 1a & 1b Complete
 
 ### Phase 1a: Accounting Foundation
