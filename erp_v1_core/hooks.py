@@ -25,10 +25,34 @@ required_apps = ["erpnext"]
 # ------------------
 
 # include js, css files in header of desk.html
+
 # DEFERRED: Manager.io theme — enable when ready in Phase 1b revisit
 # app_include_css = "/assets/erp_v1_core/css/erp_v1_theme.css"
 # app_include_css = "/assets/erp_v1_core/css/erp_v1_core.css"
+
+
 # app_include_js = "/assets/erp_v1_core/js/erp_v1_core.js"
+
+# Fixtures — export form customizations so they deploy to new sites automatically
+fixtures = [
+    {
+        "dt": "Custom Field",
+        "filters": [["dt", "in", [
+            "Sales Invoice", "Quotation", "Sales Order",
+            "Delivery Note", "Payment Entry",
+            "Purchase Order", "Purchase Receipt", "Purchase Invoice"
+        ]]]
+    },
+    {
+        "dt": "Property Setter",
+        "filters": [["doc_type", "in", [
+            "Sales Invoice", "Quotation", "Sales Order",
+            "Delivery Note", "Payment Entry",
+            "Purchase Order", "Purchase Receipt", "Purchase Invoice"
+        ]]]
+    },
+]
+
 
 # include js, css files in header of web template
 # web_include_css = "/assets/erp_v1_core/css/erp_v1_core.css"
